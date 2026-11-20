@@ -1,0 +1,12 @@
+{
+  "id": "tones",
+  "name": "Tones",
+  "version": "1.0.0",
+  "capabilities": {"status": "1", "search": "1", "browse": "1", "lyrics": "1", "continuation": "1", "live": "1"},
+  "live": {"pace": "reader", "streams": 0, "seek": true},
+  "programs": {
+    "darwin-arm64": "tones", "darwin-amd64": "tones",
+    "linux-amd64": "tones", "linux-arm64": "tones",
+    "windows-amd64": "tones.exe", "windows-arm64": "tones.exe"
+  }
+}
