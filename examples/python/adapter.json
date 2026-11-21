@@ -1,0 +1,11 @@
+{
+  "id": "python-tones",
+  "name": "Python tones",
+  "version": "1.0.0",
+  "capabilities": {"status": "1", "search": "1", "live": "1"},
+  "live": {"pace": "reader", "streams": 0, "seek": true},
+  "programs": {
+    "darwin-arm64": "adapter.py", "darwin-amd64": "adapter.py",
+    "linux-amd64": "adapter.py", "linux-arm64": "adapter.py"
+  }
+}
